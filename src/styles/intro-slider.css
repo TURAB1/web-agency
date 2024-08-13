@@ -1,0 +1,38 @@
+.intro__slider {
+    overflow: hidden;
+  }
+.slider__item {
+    max-width: 100%;
+    height: 650px;
+  }
+  
+  .slider__item-01 {
+    background:url("../assets/images/designs/design-1.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
+  .slider__item-02 {
+    background:url("../assets/images/designs/design-2.PNG");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+  }
+  .slider__item-03 {
+    background:url("../assets/images/designs/design-3.PNG");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .slider__content{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .slider__content h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color:yellow;
+
+  }
+  

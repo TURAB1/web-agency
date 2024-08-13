@@ -1,0 +1,28 @@
+.nav-bar{
+    display:flex;
+    background-color:#0E86D4;
+    justify-content:space-around;
+    height: fit-content;
+ 
+    
+}
+.nav-bar .nav-link{
+  display: flex;
+  justify-content:space-between;  
+  width: 30%;
+}
+.nav-text-decoration{
+  color:white
+}
+.nav-text-decoration:hover{
+  color: #f9a826;
+}
+@media screen and (max-width:768px){
+  .nav-bar{
+    flex-direction: column;
+  }
+  .nav-bar .nav-link{
+    flex-direction: column;
+  }
+  
+}

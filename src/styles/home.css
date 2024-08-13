@@ -1,0 +1,9 @@
+.home-section{
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 768px){
+  .calculation-form{
+    display:none;
+  }  
+}
